@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+      <!-- sweet alert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Ms</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo" ><img src="assest/logo.png" alt="logo"></div>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <i class="fas fa-bars" id="menu" style="color: white;"></i>
+            
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form" id="form">
+                <input type="text" name="Name" class="input" placeholder="Enter Your Name" id="username" pattern="[A-Za-z]{3,10}" title="uername must be between 3 to 10 characters long">
+             
+                <input type="email" name="Email" class="input" placeholder="Enter Your Email" id="email"> 
+       
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message" id="message"></textarea>
+    
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+    
+       <footer>
+           <p class="footer-p">Designed and built with love </p>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#skills">skills</a></li>
+               <li><a href="projects.html">projects</a></li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="contact.html">Contact Me</a></li>
+           </ul>
+         </footer>
+
+
+
+         <script src="contact.js"></script>
+</body>
+</html>
